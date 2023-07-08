@@ -1,0 +1,10 @@
+{
+  "IPBuyOnRequest":{
+    "buyOnRequest": "Bestellbar auf Anfrage"
+  },
+  "checkout": {
+    "IPBuyOnRequest": {
+      "cartError": "Dieser Artikel ist derzeit nur auf Anfrage erhältlich"
+    }
+  }
+}

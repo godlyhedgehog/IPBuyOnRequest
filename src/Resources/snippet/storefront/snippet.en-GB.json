@@ -1,0 +1,10 @@
+{
+  "IPBuyOnRequest": {
+    "buyOnRequest": "Buy on request"
+  },
+  "checkout": {
+    "IPBuyOnRequest": {
+      "cartError": "This item is currently available only on request"
+    }
+  }
+}

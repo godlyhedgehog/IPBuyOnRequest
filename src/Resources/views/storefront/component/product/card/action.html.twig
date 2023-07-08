@@ -1,0 +1,15 @@
+{% sw_extends "@Storefront/storefront/component/product/card/action.html.twig" %}
+
+{% block page_product_detail_product_buy_button %}
+    {% if product.customFields.IPBuyOnRequest_cf_buy_on_request %}
+        {% set status = "disabled " %}
+        {% set snippet = "IPBuyOnRequest.buyOnRequest" %}
+    {% else %}
+        {% set status = "" %}
+        {% set snippet = "detail.addProduct" %}
+    {% endif %}
+    <button class="{{ status }}btn btn-block btn-buy"
+            title="{{ snippet|trans|striptags }}">
+        {{ snippet|trans|sw_sanitize }}
+    </button>
+{% endblock %}
