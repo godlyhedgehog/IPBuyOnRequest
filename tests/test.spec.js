@@ -1,7 +1,10 @@
 // test suite name
-describe('First Test', function () {
+describe('Detail page test', function () {
 // Test case
-    it('Scenario 1', function (){
+    beforeEach(() => {
+        cy.visit('http://localhost/Main-product-with-properties/SWDEMO10007.2')
+    })
+    it('Clicks the purchase button', function (){
         cy.get('.btn-buy').click()
     });
 });
