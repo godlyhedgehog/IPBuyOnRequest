@@ -14,4 +14,4 @@ Nach der Installation und Aktivierung sind folgende Änderungen vorhanden:
 * In der Administration finden Sie das neue benutzerdefinierte Feld für Produkte, das entweder ein- oder ausgeschaltet werden kann (standardmäßig ausgeschaltet).
 * Wenn der Schalter aktiv ist, wird der Kauf-Button für dieses Produkt deaktiviert und die Beschriftung des Buttons geändert
 * Außerdem prüft das Plugin jeden Warenkorb auf das Vorhandensein solcher Produkte und entfernt sie, wobei es eine Fehlermeldung ausgibt
-* * Das Plugin bietet auch einen zusätzlichen API-Endpunkt, um den Zustand des Schalters für ein einzelnes Element abzurufen.
+* Das Plugin bietet auch einen zusätzlichen API-Endpunkt, um den Zustand des Schalters für ein einzelnes Element abzurufen.
