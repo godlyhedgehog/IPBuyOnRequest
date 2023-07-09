@@ -8,7 +8,7 @@
         {% set status = "" %}
         {% set snippet = "detail.addProduct" %}
     {% endif %}
-    <button class="{{ status }}btn btn-primary btn-block btn-buy"
+    <button {{ status }} class="{{ status }}btn btn-primary btn-block btn-buy"
             title="{{ snippet|trans|striptags }}"
             aria-label="{{ snippet|trans|striptags }}">
         {{ snippet|trans|sw_sanitize }}
