@@ -14,3 +14,4 @@ After installing and activating, following changes are present:
 * In the administration you will find the new custom field for products that can be switched either off and on (off by default)
 * If the switch is active, the buy button for this product is deactivated and the caption of the button is changed
 * Also the plugin checks every basket for the presence of such products and removes them, notifying about it via error message
+* Plugin also presents an additional API endpoint for retrieving the state of the switch for an individual item.
